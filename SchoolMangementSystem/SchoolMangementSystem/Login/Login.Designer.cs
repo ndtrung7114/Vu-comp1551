@@ -42,16 +42,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.login_close);
             this.panel1.Controls.Add(this.login_registerhere);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.login_showpass);
@@ -73,7 +70,7 @@
             // 
             this.login_close.AutoSize = true;
             this.login_close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.login_close.Location = new System.Drawing.Point(664, 6);
+            this.login_close.Location = new System.Drawing.Point(655, 9);
             this.login_close.Name = "login_close";
             this.login_close.Size = new System.Drawing.Size(18, 18);
             this.login_close.TabIndex = 12;
@@ -141,10 +138,10 @@
             // 
             // login_btn
             // 
-            this.login_btn.BackColor = System.Drawing.Color.MidnightBlue;
+            this.login_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
             this.login_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.login_btn.ForeColor = System.Drawing.Color.White;
-            this.login_btn.Location = new System.Drawing.Point(338, 282);
+            this.login_btn.Location = new System.Drawing.Point(460, 285);
             this.login_btn.Name = "login_btn";
             this.login_btn.Size = new System.Drawing.Size(100, 35);
             this.login_btn.TabIndex = 6;
@@ -203,32 +200,11 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(314, 412);
             this.panel2.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.login_close);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(685, 30);
-            this.panel3.TabIndex = 13;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(9, 8);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(213, 16);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "School Management System | Login";
             // 
             // Login
             // 
@@ -242,8 +218,6 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -264,8 +238,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label login_registerhere;
         private System.Windows.Forms.Label login_close;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label6;
     }
 }
 

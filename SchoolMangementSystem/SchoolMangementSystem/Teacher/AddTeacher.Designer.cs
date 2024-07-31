@@ -29,7 +29,7 @@ namespace SchoolMangementSystem
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
@@ -79,14 +79,14 @@ namespace SchoolMangementSystem
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.Location = new System.Drawing.Point(22, 59);
@@ -196,7 +196,7 @@ namespace SchoolMangementSystem
             // teacher_email
             // 
             this.teacher_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teacher_email.Location = new System.Drawing.Point(368, 38);
+            this.teacher_email.Location = new System.Drawing.Point(363, 38);
             this.teacher_email.Name = "teacher_email";
             this.teacher_email.Size = new System.Drawing.Size(170, 21);
             this.teacher_email.TabIndex = 21;
@@ -205,7 +205,7 @@ namespace SchoolMangementSystem
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(323, 44);
+            this.label8.Location = new System.Drawing.Point(318, 44);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(42, 15);
             this.label8.TabIndex = 20;
@@ -235,7 +235,7 @@ namespace SchoolMangementSystem
             // 
             // teacher_clearBtn
             // 
-            this.teacher_clearBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.teacher_clearBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
             this.teacher_clearBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.teacher_clearBtn.FlatAppearance.BorderSize = 0;
             this.teacher_clearBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
@@ -244,7 +244,7 @@ namespace SchoolMangementSystem
             this.teacher_clearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.teacher_clearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teacher_clearBtn.ForeColor = System.Drawing.Color.White;
-            this.teacher_clearBtn.Location = new System.Drawing.Point(569, 152);
+            this.teacher_clearBtn.Location = new System.Drawing.Point(579, 152);
             this.teacher_clearBtn.Name = "teacher_clearBtn";
             this.teacher_clearBtn.Size = new System.Drawing.Size(113, 37);
             this.teacher_clearBtn.TabIndex = 17;
@@ -254,7 +254,7 @@ namespace SchoolMangementSystem
             // 
             // teacher_deleteBtn
             // 
-            this.teacher_deleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.teacher_deleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
             this.teacher_deleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.teacher_deleteBtn.FlatAppearance.BorderSize = 0;
             this.teacher_deleteBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
@@ -273,7 +273,7 @@ namespace SchoolMangementSystem
             // 
             // teacher_updateBtn
             // 
-            this.teacher_updateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.teacher_updateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
             this.teacher_updateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.teacher_updateBtn.FlatAppearance.BorderSize = 0;
             this.teacher_updateBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
@@ -282,7 +282,7 @@ namespace SchoolMangementSystem
             this.teacher_updateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.teacher_updateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teacher_updateBtn.ForeColor = System.Drawing.Color.White;
-            this.teacher_updateBtn.Location = new System.Drawing.Point(290, 152);
+            this.teacher_updateBtn.Location = new System.Drawing.Point(298, 152);
             this.teacher_updateBtn.Name = "teacher_updateBtn";
             this.teacher_updateBtn.Size = new System.Drawing.Size(113, 37);
             this.teacher_updateBtn.TabIndex = 15;
@@ -292,7 +292,7 @@ namespace SchoolMangementSystem
             // 
             // teacher_addBtn
             // 
-            this.teacher_addBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.teacher_addBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
             this.teacher_addBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.teacher_addBtn.FlatAppearance.BorderSize = 0;
             this.teacher_addBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
@@ -315,7 +315,7 @@ namespace SchoolMangementSystem
             this.teacher_role.FormattingEnabled = true;
             this.teacher_role.Items.AddRange(new object[] {
             "Teacher"});
-            this.teacher_role.Location = new System.Drawing.Point(368, 92);
+            this.teacher_role.Location = new System.Drawing.Point(363, 92);
             this.teacher_role.Name = "teacher_role";
             this.teacher_role.Size = new System.Drawing.Size(170, 23);
             this.teacher_role.TabIndex = 11;
@@ -324,7 +324,7 @@ namespace SchoolMangementSystem
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(329, 100);
+            this.label6.Location = new System.Drawing.Point(324, 100);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(36, 15);
             this.label6.TabIndex = 10;
@@ -333,7 +333,7 @@ namespace SchoolMangementSystem
             // teacher_phone
             // 
             this.teacher_phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teacher_phone.Location = new System.Drawing.Point(368, 65);
+            this.teacher_phone.Location = new System.Drawing.Point(363, 65);
             this.teacher_phone.Name = "teacher_phone";
             this.teacher_phone.Size = new System.Drawing.Size(170, 21);
             this.teacher_phone.TabIndex = 9;
@@ -342,7 +342,7 @@ namespace SchoolMangementSystem
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(319, 71);
+            this.label5.Location = new System.Drawing.Point(314, 71);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 15);
             this.label5.TabIndex = 8;
@@ -403,9 +403,9 @@ namespace SchoolMangementSystem
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(30, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 15);
+            this.label2.Size = new System.Drawing.Size(70, 15);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Employee ID:";
+            this.label2.Text = "Teacher ID:";
             // 
             // panel4
             // 

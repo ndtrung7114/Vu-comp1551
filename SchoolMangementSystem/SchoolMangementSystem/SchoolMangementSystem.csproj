@@ -46,33 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddTeacher.cs">
+    <Compile Include="Person.cs" />
+    <Compile Include="Teacher\AddTeacher.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AddTeacher.Designer.cs">
+    <Compile Include="Teacher\AddTeacher.Designer.cs">
       <DependentUpon>AddTeacher.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddStudentData.cs" />
-    <Compile Include="AddStudentForm.cs">
+    <Compile Include="Student\AddStudentData.cs" />
+    <Compile Include="Student\AddStudentForm.cs">
       <SubType>UserControl</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="AddStudentForm.Designer.cs">
+    <Compile Include="Student\AddStudentForm.Designer.cs">
       <DependentUpon>AddStudentForm.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="TeacherData.cs" />
-    <Compile Include="Login.cs">
+    <Compile Include="Teacher\TeacherData.cs" />
+    <Compile Include="Login\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Login\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -87,31 +82,28 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Salary.cs">
+    <Compile Include="Salary\Salary.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Salary.Designer.cs">
+    <Compile Include="Salary\Salary.Designer.cs">
       <DependentUpon>Salary.cs</DependentUpon>
     </Compile>
-    <Compile Include="SalaryData.cs" />
-    <Compile Include="Signup.cs">
+    <Compile Include="Salary\SalaryData.cs" />
+    <Compile Include="Login\Signup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Signup.Designer.cs">
+    <Compile Include="Login\Signup.Designer.cs">
       <DependentUpon>Signup.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddTeacher.resx">
+    <EmbeddedResource Include="Teacher\AddTeacher.resx">
       <DependentUpon>AddTeacher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddStudentForm.resx">
+    <EmbeddedResource Include="Student\AddStudentForm.resx">
       <DependentUpon>AddStudentForm.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="Login\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -121,10 +113,10 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Salary.resx">
+    <EmbeddedResource Include="Salary\Salary.resx">
       <DependentUpon>Salary.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Signup.resx">
+    <EmbeddedResource Include="Login\Signup.resx">
       <DependentUpon>Signup.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

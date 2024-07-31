@@ -29,7 +29,7 @@ namespace SchoolMangementSystem
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
             this.student_studiedsubject2 = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -108,7 +108,7 @@ namespace SchoolMangementSystem
             "Van ",
             "Anh",
             "Sinh"});
-            this.student_studiedsubject2.Location = new System.Drawing.Point(585, 118);
+            this.student_studiedsubject2.Location = new System.Drawing.Point(633, 118);
             this.student_studiedsubject2.Name = "student_studiedsubject2";
             this.student_studiedsubject2.Size = new System.Drawing.Size(144, 21);
             this.student_studiedsubject2.TabIndex = 33;
@@ -116,7 +116,7 @@ namespace SchoolMangementSystem
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(497, 121);
+            this.label12.Location = new System.Drawing.Point(545, 121);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(85, 13);
             this.label12.TabIndex = 32;
@@ -130,7 +130,7 @@ namespace SchoolMangementSystem
             "Van ",
             "Anh",
             "Sinh"});
-            this.student_studiedsubject1.Location = new System.Drawing.Point(585, 91);
+            this.student_studiedsubject1.Location = new System.Drawing.Point(633, 91);
             this.student_studiedsubject1.Name = "student_studiedsubject1";
             this.student_studiedsubject1.Size = new System.Drawing.Size(144, 21);
             this.student_studiedsubject1.TabIndex = 31;
@@ -138,7 +138,7 @@ namespace SchoolMangementSystem
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(497, 94);
+            this.label10.Location = new System.Drawing.Point(545, 94);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(85, 13);
             this.label10.TabIndex = 30;
@@ -152,7 +152,7 @@ namespace SchoolMangementSystem
             "Van ",
             "Anh",
             "Sinh"});
-            this.student_currentsubject2.Location = new System.Drawing.Point(585, 64);
+            this.student_currentsubject2.Location = new System.Drawing.Point(633, 64);
             this.student_currentsubject2.Name = "student_currentsubject2";
             this.student_currentsubject2.Size = new System.Drawing.Size(144, 21);
             this.student_currentsubject2.TabIndex = 29;
@@ -160,7 +160,7 @@ namespace SchoolMangementSystem
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(499, 67);
+            this.label11.Location = new System.Drawing.Point(547, 67);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(83, 13);
             this.label11.TabIndex = 28;
@@ -174,7 +174,7 @@ namespace SchoolMangementSystem
             "Van ",
             "Anh",
             "Sinh"});
-            this.student_currentsubject1.Location = new System.Drawing.Point(585, 37);
+            this.student_currentsubject1.Location = new System.Drawing.Point(633, 37);
             this.student_currentsubject1.Name = "student_currentsubject1";
             this.student_currentsubject1.Size = new System.Drawing.Size(144, 21);
             this.student_currentsubject1.TabIndex = 27;
@@ -182,7 +182,7 @@ namespace SchoolMangementSystem
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(499, 40);
+            this.label9.Location = new System.Drawing.Point(547, 40);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(83, 13);
             this.label9.TabIndex = 26;
@@ -193,7 +193,7 @@ namespace SchoolMangementSystem
             this.student_role.FormattingEnabled = true;
             this.student_role.Items.AddRange(new object[] {
             "Student"});
-            this.student_role.Location = new System.Drawing.Point(343, 91);
+            this.student_role.Location = new System.Drawing.Point(348, 91);
             this.student_role.Name = "student_role";
             this.student_role.Size = new System.Drawing.Size(144, 21);
             this.student_role.TabIndex = 25;
@@ -201,7 +201,7 @@ namespace SchoolMangementSystem
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(308, 95);
+            this.label5.Location = new System.Drawing.Point(313, 95);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(32, 13);
             this.label5.TabIndex = 24;
@@ -209,7 +209,7 @@ namespace SchoolMangementSystem
             // 
             // student_phone
             // 
-            this.student_phone.Location = new System.Drawing.Point(343, 64);
+            this.student_phone.Location = new System.Drawing.Point(348, 64);
             this.student_phone.Multiline = true;
             this.student_phone.Name = "student_phone";
             this.student_phone.Size = new System.Drawing.Size(144, 21);
@@ -218,7 +218,7 @@ namespace SchoolMangementSystem
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(299, 70);
+            this.label6.Location = new System.Drawing.Point(304, 70);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(41, 13);
             this.label6.TabIndex = 22;
@@ -226,7 +226,7 @@ namespace SchoolMangementSystem
             // 
             // student_email
             // 
-            this.student_email.Location = new System.Drawing.Point(343, 37);
+            this.student_email.Location = new System.Drawing.Point(348, 37);
             this.student_email.Multiline = true;
             this.student_email.Name = "student_email";
             this.student_email.Size = new System.Drawing.Size(144, 21);
@@ -235,7 +235,7 @@ namespace SchoolMangementSystem
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(305, 43);
+            this.label7.Location = new System.Drawing.Point(310, 43);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 13);
             this.label7.TabIndex = 20;
@@ -247,7 +247,7 @@ namespace SchoolMangementSystem
             this.student_status.Items.AddRange(new object[] {
             "Enrolled",
             "Pending"});
-            this.student_status.Location = new System.Drawing.Point(343, 118);
+            this.student_status.Location = new System.Drawing.Point(348, 118);
             this.student_status.Name = "student_status";
             this.student_status.Size = new System.Drawing.Size(144, 21);
             this.student_status.TabIndex = 19;
@@ -255,7 +255,7 @@ namespace SchoolMangementSystem
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(300, 121);
+            this.label8.Location = new System.Drawing.Point(305, 121);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(40, 13);
             this.label8.TabIndex = 18;
@@ -270,7 +270,7 @@ namespace SchoolMangementSystem
             this.student_deleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.student_deleteBtn.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.student_deleteBtn.ForeColor = System.Drawing.Color.White;
-            this.student_deleteBtn.Location = new System.Drawing.Point(575, 174);
+            this.student_deleteBtn.Location = new System.Drawing.Point(426, 174);
             this.student_deleteBtn.Name = "student_deleteBtn";
             this.student_deleteBtn.Size = new System.Drawing.Size(102, 35);
             this.student_deleteBtn.TabIndex = 17;
@@ -287,7 +287,7 @@ namespace SchoolMangementSystem
             this.student_clearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.student_clearBtn.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.student_clearBtn.ForeColor = System.Drawing.Color.White;
-            this.student_clearBtn.Location = new System.Drawing.Point(449, 174);
+            this.student_clearBtn.Location = new System.Drawing.Point(561, 174);
             this.student_clearBtn.Name = "student_clearBtn";
             this.student_clearBtn.Size = new System.Drawing.Size(102, 35);
             this.student_clearBtn.TabIndex = 16;
@@ -303,7 +303,7 @@ namespace SchoolMangementSystem
             this.student_updateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.student_updateBtn.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.student_updateBtn.ForeColor = System.Drawing.Color.White;
-            this.student_updateBtn.Location = new System.Drawing.Point(312, 174);
+            this.student_updateBtn.Location = new System.Drawing.Point(290, 174);
             this.student_updateBtn.Name = "student_updateBtn";
             this.student_updateBtn.Size = new System.Drawing.Size(102, 35);
             this.student_updateBtn.TabIndex = 15;
@@ -320,7 +320,7 @@ namespace SchoolMangementSystem
             this.student_addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.student_addBtn.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.student_addBtn.ForeColor = System.Drawing.Color.White;
-            this.student_addBtn.Location = new System.Drawing.Point(186, 174);
+            this.student_addBtn.Location = new System.Drawing.Point(162, 174);
             this.student_addBtn.Name = "student_addBtn";
             this.student_addBtn.Size = new System.Drawing.Size(102, 35);
             this.student_addBtn.TabIndex = 14;
@@ -335,7 +335,7 @@ namespace SchoolMangementSystem
             "Male",
             "Female",
             "Others"});
-            this.student_gender.Location = new System.Drawing.Point(144, 92);
+            this.student_gender.Location = new System.Drawing.Point(103, 92);
             this.student_gender.Name = "student_gender";
             this.student_gender.Size = new System.Drawing.Size(144, 21);
             this.student_gender.TabIndex = 5;
@@ -343,7 +343,7 @@ namespace SchoolMangementSystem
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(96, 95);
+            this.label4.Location = new System.Drawing.Point(55, 95);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 13);
             this.label4.TabIndex = 4;
@@ -351,7 +351,7 @@ namespace SchoolMangementSystem
             // 
             // student_name
             // 
-            this.student_name.Location = new System.Drawing.Point(144, 65);
+            this.student_name.Location = new System.Drawing.Point(103, 65);
             this.student_name.Multiline = true;
             this.student_name.Name = "student_name";
             this.student_name.Size = new System.Drawing.Size(144, 21);
@@ -360,7 +360,7 @@ namespace SchoolMangementSystem
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(84, 71);
+            this.label3.Location = new System.Drawing.Point(43, 71);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 13);
             this.label3.TabIndex = 2;
@@ -368,7 +368,7 @@ namespace SchoolMangementSystem
             // 
             // student_id
             // 
-            this.student_id.Location = new System.Drawing.Point(144, 38);
+            this.student_id.Location = new System.Drawing.Point(103, 38);
             this.student_id.Multiline = true;
             this.student_id.Name = "student_id";
             this.student_id.Size = new System.Drawing.Size(144, 21);
@@ -377,7 +377,7 @@ namespace SchoolMangementSystem
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(80, 44);
+            this.label2.Location = new System.Drawing.Point(39, 44);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 0;
@@ -399,14 +399,14 @@ namespace SchoolMangementSystem
             this.student_studentData.AllowUserToAddRows = false;
             this.student_studentData.AllowUserToDeleteRows = false;
             this.student_studentData.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.student_studentData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.student_studentData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.student_studentData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.student_studentData.EnableHeadersVisualStyles = false;
             this.student_studentData.Location = new System.Drawing.Point(20, 47);
