@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace SchoolMangementSystem
+namespace EmployeeManagementSystem
 {
     class SalaryData
     {
 
-        public string TeacherID { set; get; } // 0
-        public string TeacherName { set; get; } // 1
-        public string TeacherGender { set; get; } // 2
-        public string TeacherPhone { set; get; } // 3
-        public string TeacherRole{ set; get; } // 4
+        public string EmployeeID { set; get; } // 0
+        public string EmployeeName { set; get; } // 1
+        public string EmployeeGender { set; get; } // 2
+        public string EmployeePhone { set; get; } // 3
+        public string EmployeeRole { set; get; } // 4
         public int Salary { set; get; } // 5
 
         SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\OneDrive\Documents\DesktopInformationSystem.mdf;Integrated Security=True;Connect Timeout=30");
 
-        public List<SalaryData> salaryTeachersListData()
+        public List<SalaryData> salaryEmployeeListData()
         {
             List<SalaryData> listdata = new List<SalaryData>();
 
@@ -30,7 +30,7 @@ namespace SchoolMangementSystem
                 {
                     connect.Open();
 
-                    string selectData = "SELECT * FROM teachers WHERE status = 'Active' " +
+                    string selectData = "SELECT * FROM employees WHERE status = 'Active' " +
                         "AND delete_date IS NULL";
 
                     using (SqlCommand cmd = new SqlCommand(selectData, connect))
@@ -40,11 +40,11 @@ namespace SchoolMangementSystem
                         while (reader.Read())
                         {
                             SalaryData sd = new SalaryData();
-                            sd.TeacherID = reader["teacher_id"].ToString();
-                            sd.TeacherName = reader["teacher_name"].ToString();
-                            sd.TeacherGender = reader["teacher_gender"].ToString();
-                            sd.TeacherPhone = reader["teacher_phone"].ToString();
-                            sd.TeacherRole = reader["teacher_role"].ToString();
+                            sd.EmployeeID = reader["employee_id"].ToString();
+                            sd.EmployeeName = reader["employee_name"].ToString();
+                            sd.EmployeeGender = reader["employee_gender"].ToString();
+                            sd.EmployeePhone = reader["employee_phone"].ToString();
+                            sd.EmployeeRole = reader["employee_role"].ToString();
                             sd.Salary = (int)reader["salary"];
 
                             listdata.Add(sd);

@@ -43,7 +43,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.salary_connect = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -62,7 +61,6 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.salary_connect);
             this.panel1.Controls.Add(this.salary_clearBtn);
             this.panel1.Controls.Add(this.salary_updateBtn);
             this.panel1.Controls.Add(this.salary_teachersalary);
@@ -226,25 +224,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Salary";
             // 
-            // salary_connect
-            // 
-            this.salary_connect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            this.salary_connect.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.salary_connect.FlatAppearance.BorderSize = 0;
-            this.salary_connect.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.salary_connect.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.salary_connect.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.salary_connect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.salary_connect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.salary_connect.ForeColor = System.Drawing.Color.White;
-            this.salary_connect.Location = new System.Drawing.Point(89, 358);
-            this.salary_connect.Name = "salary_connect";
-            this.salary_connect.Size = new System.Drawing.Size(96, 37);
-            this.salary_connect.TabIndex = 17;
-            this.salary_connect.Text = "Connect";
-            this.salary_connect.UseVisualStyleBackColor = false;
-            this.salary_connect.Click += new System.EventHandler(this.salary_connect_Click);
-            // 
             // Salary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -278,6 +257,5 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button salary_connect;
     }
 }

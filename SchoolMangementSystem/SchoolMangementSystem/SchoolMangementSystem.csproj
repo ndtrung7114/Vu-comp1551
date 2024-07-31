@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddAdminForm.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="AddAdminForm.Designer.cs">
-      <DependentUpon>AddAdminForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="AddEmployee.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -101,9 +95,6 @@
       <DependentUpon>Salary.cs</DependentUpon>
     </Compile>
     <Compile Include="SalaryData.cs" />
-    <EmbeddedResource Include="AddAdminForm.resx">
-      <DependentUpon>AddAdminForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AddEmployee.resx">
       <DependentUpon>AddEmployee.cs</DependentUpon>
     </EmbeddedResource>

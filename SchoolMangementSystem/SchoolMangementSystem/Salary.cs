@@ -1,4 +1,5 @@
-﻿using SchoolMangementSystem;
+﻿using EmployeeManagementSystem;
+using SchoolMangementSystem;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +21,7 @@ namespace SchoolMangementSystem
         {
             InitializeComponent();
 
-            displayTeachers();
+            displayEmployees();
             disableFields();
         }
 
@@ -32,7 +33,7 @@ namespace SchoolMangementSystem
                 return;
             }
 
-            displayTeachers();
+            displayEmployees();
             disableFields();
         }
 
@@ -43,10 +44,10 @@ namespace SchoolMangementSystem
             salary_teacherrole.Enabled = false;
         }
 
-        public void displayTeachers()
+        public void displayEmployees()
         {
-            SalaryData sd = new SalaryData();
-            List<SalaryData> listData = sd.salaryTeachersListData();
+            SalaryData ed = new SalaryData();
+            List<SalaryData> listData = ed.salaryEmployeeListData();
 
             dataGridView1.DataSource = listData;
         }
@@ -63,7 +64,7 @@ namespace SchoolMangementSystem
             }
             else
             {
-                DialogResult check = MessageBox.Show("Are you sure you want to UPDATE Teacher ID: "
+                DialogResult check = MessageBox.Show("Are you sure you want to UPDATE Employee ID: "
                     + salary_teacherid.Text.Trim() + "?", "Confirmation Message"
                     , MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
@@ -76,18 +77,18 @@ namespace SchoolMangementSystem
                             connect.Open();
                             DateTime today = DateTime.Today;
 
-                            string updateData = "UPDATE teachers SET salary = @salary" +
-                                ", update_date = @updateData WHERE teacher_id = @teacherID";
+                            string updateData = "UPDATE employees SET salary = @salary" +
+                                ", update_date = @updateData WHERE employee_id = @employeeID";
 
                             using (SqlCommand cmd = new SqlCommand(updateData, connect))
                             {
                                 cmd.Parameters.AddWithValue("@salary", salary_teachersalary.Text.Trim());
                                 cmd.Parameters.AddWithValue("@updateData", today);
-                                cmd.Parameters.AddWithValue("teacherID", salary_teacherid.Text.Trim());
+                                cmd.Parameters.AddWithValue("@employeeID", salary_teacherid.Text.Trim());
 
                                 cmd.ExecuteNonQuery();
 
-                                displayTeachers();
+                                displayEmployees();
 
                                 MessageBox.Show("Updated successfully!"
                                     , "Information Message", MessageBoxButtons.OK
@@ -139,33 +140,6 @@ namespace SchoolMangementSystem
         private void salary_clearBtn_Click(object sender, EventArgs e)
         {
             clearFields();
-        }
-
-        private void salary_connect_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (connect.State != ConnectionState.Open)
-                {
-                    connect.Open();
-                    string query = "SELECT * FROM teachers";
-                    SqlDataAdapter adapter = new SqlDataAdapter(query, connect);
-                    DataTable dataTable = new DataTable();
-                    adapter.Fill(dataTable);
-                    dataGridView1.DataSource = dataTable;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error: {ex.Message}", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                if (connect.State == ConnectionState.Open)
-                {
-                    connect.Close();
-                }
-            }
         }
     }
 }

@@ -39,6 +39,5 @@ D:\COMP1551\School-Management-System-using-CSharp-main\SchoolMangementSystem\Sch
 D:\COMP1551\School-Management-System-using-CSharp-main\SchoolMangementSystem\SchoolMangementSystem\bin\Debug\SchoolMangementSystem.exe.config
 D:\COMP1551\School-Management-System-using-CSharp-main\SchoolMangementSystem\SchoolMangementSystem\bin\Debug\SchoolMangementSystem.exe
 D:\COMP1551\School-Management-System-using-CSharp-main\SchoolMangementSystem\SchoolMangementSystem\bin\Debug\SchoolMangementSystem.pdb
-D:\COMP1551\School-Management-System-using-CSharp-main\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.AddAdminForm.resources
 D:\COMP1551\School-Management-System-using-CSharp-main\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.Salary.resources
 D:\COMP1551\School-Management-System-using-CSharp-main\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.AddEmployee.resources
