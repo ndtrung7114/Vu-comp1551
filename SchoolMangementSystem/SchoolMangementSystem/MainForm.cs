@@ -22,15 +22,6 @@ namespace SchoolMangementSystem
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            addStudentForm1.Visible = false;
-            addTeachersForm1.Visible = true;
-            addEmployee1.Visible = false;
-            salary1.Visible = false;
-
-        }
-
         private void label3_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -42,7 +33,7 @@ namespace SchoolMangementSystem
 
             if(check == DialogResult.Yes)
             {
-                LoginForm lForm = new LoginForm();
+                Login lForm = new Login();
                 lForm.Show();
                 this.Hide();
             }
@@ -57,24 +48,21 @@ namespace SchoolMangementSystem
         {
 
             addStudentForm1.Visible = true;
-            addEmployee1.Visible = false;
-            addTeachersForm1.Visible = false;
+            addTeacher1.Visible = false;
             salary1.Visible = false;
         }
         private void Salary_btn(object sender, EventArgs e)
         {
             addStudentForm1.Visible = false;
-            addEmployee1.Visible = false;
-            addTeachersForm1.Visible = false;
+            addTeacher1.Visible = false;
             salary1.Visible = true;
         }
 
-        private void AddEmployees_btn_Click(object sender, EventArgs e)
+        private void AddTeachers_btn_Click(object sender, EventArgs e)
         {
             addStudentForm1.Visible = false;
-            addTeachersForm1.Visible = false;
             salary1.Visible = false;
-            addEmployee1.Visible = true;
+            addTeacher1.Visible = true;
         }
     }
 }

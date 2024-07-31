@@ -18,6 +18,10 @@ namespace SchoolMangementSystem
         public string StudentEmail { set; get; }
         public string StudentPhone { set; get; }
         public string StudentRole { set; get; }
+        public string StudentCurrentSubject1 { set; get; }
+        public string StudentCurrentSubject2 { set; get; }
+        public string StudentStudiedSubject1 { set; get; }
+        public string StudentStudiedSubject2 { set; get; }
         public string Status { set; get; }
         public DateTime DateInsert { set; get; }
 
@@ -46,6 +50,10 @@ namespace SchoolMangementSystem
                             addSD.StudentEmail = reader["student_email"].ToString();
                             addSD.StudentPhone = reader["student_phone"].ToString();
                             addSD.StudentRole = reader["student_role"].ToString();
+                            addSD.StudentCurrentSubject1 = reader["student_currentsubject1"].ToString();
+                            addSD.StudentCurrentSubject2 = reader["student_currentsubject2"].ToString();
+                            addSD.StudentStudiedSubject1 = reader["student_studiedsubject1"].ToString();
+                            addSD.StudentStudiedSubject2 = reader["student_studiedsubject2"].ToString();
                             addSD.Status = reader["student_status"].ToString();
                             addSD.DateInsert = (DateTime)reader["date_insert"];
 

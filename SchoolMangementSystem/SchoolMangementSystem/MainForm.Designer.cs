@@ -33,19 +33,16 @@ namespace SchoolMangementSystem
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.AddEmployees_btn = new System.Windows.Forms.Button();
+            this.AddTeachers_btn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.AddTeacher_btn = new System.Windows.Forms.Button();
             this.AddStudent_btn = new System.Windows.Forms.Button();
-            this.Dashboard_btn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.addTeacher1 = new SchoolMangementSystem.AddTeacher();
             this.salary1 = new SchoolMangementSystem.Salary();
             this.addStudentForm1 = new SchoolMangementSystem.AddStudentForm();
-            this.addTeachersForm1 = new SchoolMangementSystem.AddTeachersForm();
-            this.addEmployee1 = new SchoolMangementSystem.AddEmployee();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -88,13 +85,11 @@ namespace SchoolMangementSystem
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            this.panel2.Controls.Add(this.AddEmployees_btn);
+            this.panel2.Controls.Add(this.AddTeachers_btn);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.AddTeacher_btn);
             this.panel2.Controls.Add(this.AddStudent_btn);
-            this.panel2.Controls.Add(this.Dashboard_btn);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 25);
@@ -102,21 +97,21 @@ namespace SchoolMangementSystem
             this.panel2.Size = new System.Drawing.Size(225, 575);
             this.panel2.TabIndex = 1;
             // 
-            // AddEmployees_btn
+            // AddTeachers_btn
             // 
-            this.AddEmployees_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AddEmployees_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.AddEmployees_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.AddEmployees_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddEmployees_btn.ForeColor = System.Drawing.Color.White;
-            this.AddEmployees_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.AddEmployees_btn.Location = new System.Drawing.Point(12, 358);
-            this.AddEmployees_btn.Name = "AddEmployees_btn";
-            this.AddEmployees_btn.Size = new System.Drawing.Size(200, 40);
-            this.AddEmployees_btn.TabIndex = 8;
-            this.AddEmployees_btn.Text = "Add Employees";
-            this.AddEmployees_btn.UseVisualStyleBackColor = true;
-            this.AddEmployees_btn.Click += new System.EventHandler(this.AddEmployees_btn_Click);
+            this.AddTeachers_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddTeachers_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.AddTeachers_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.AddTeachers_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddTeachers_btn.ForeColor = System.Drawing.Color.White;
+            this.AddTeachers_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AddTeachers_btn.Location = new System.Drawing.Point(12, 266);
+            this.AddTeachers_btn.Name = "AddTeachers_btn";
+            this.AddTeachers_btn.Size = new System.Drawing.Size(200, 40);
+            this.AddTeachers_btn.TabIndex = 8;
+            this.AddTeachers_btn.Text = "Add Teachers";
+            this.AddTeachers_btn.UseVisualStyleBackColor = true;
+            this.AddTeachers_btn.Click += new System.EventHandler(this.AddTeachers_btn_Click);
             // 
             // button1
             // 
@@ -160,22 +155,6 @@ namespace SchoolMangementSystem
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
-            // AddTeacher_btn
-            // 
-            this.AddTeacher_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AddTeacher_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.AddTeacher_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.AddTeacher_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddTeacher_btn.ForeColor = System.Drawing.Color.White;
-            this.AddTeacher_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.AddTeacher_btn.Location = new System.Drawing.Point(12, 266);
-            this.AddTeacher_btn.Name = "AddTeacher_btn";
-            this.AddTeacher_btn.Size = new System.Drawing.Size(200, 40);
-            this.AddTeacher_btn.TabIndex = 4;
-            this.AddTeacher_btn.Text = "Add Teachers";
-            this.AddTeacher_btn.UseVisualStyleBackColor = true;
-            this.AddTeacher_btn.Click += new System.EventHandler(this.button4_Click);
-            // 
             // AddStudent_btn
             // 
             this.AddStudent_btn.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -192,22 +171,6 @@ namespace SchoolMangementSystem
             this.AddStudent_btn.UseVisualStyleBackColor = true;
             this.AddStudent_btn.Click += new System.EventHandler(this.AddStudent_btn_Click);
             // 
-            // Dashboard_btn
-            // 
-            this.Dashboard_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Dashboard_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.Dashboard_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.Dashboard_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Dashboard_btn.ForeColor = System.Drawing.Color.White;
-            this.Dashboard_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Dashboard_btn.Location = new System.Drawing.Point(12, 174);
-            this.Dashboard_btn.Name = "Dashboard_btn";
-            this.Dashboard_btn.Size = new System.Drawing.Size(200, 40);
-            this.Dashboard_btn.TabIndex = 2;
-            this.Dashboard_btn.Text = "Dashboard";
-            this.Dashboard_btn.UseVisualStyleBackColor = true;
-            this.Dashboard_btn.Click += new System.EventHandler(this.button1_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -221,15 +184,21 @@ namespace SchoolMangementSystem
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.addEmployee1);
+            this.panel3.Controls.Add(this.addTeacher1);
             this.panel3.Controls.Add(this.salary1);
             this.panel3.Controls.Add(this.addStudentForm1);
-            this.panel3.Controls.Add(this.addTeachersForm1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(225, 25);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(875, 575);
             this.panel3.TabIndex = 2;
+            // 
+            // addTeacher1
+            // 
+            this.addTeacher1.Location = new System.Drawing.Point(0, -2);
+            this.addTeacher1.Name = "addTeacher1";
+            this.addTeacher1.Size = new System.Drawing.Size(875, 577);
+            this.addTeacher1.TabIndex = 3;
             // 
             // salary1
             // 
@@ -245,21 +214,6 @@ namespace SchoolMangementSystem
             this.addStudentForm1.Name = "addStudentForm1";
             this.addStudentForm1.Size = new System.Drawing.Size(875, 575);
             this.addStudentForm1.TabIndex = 1;
-            // 
-            // addTeachersForm1
-            // 
-            this.addTeachersForm1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addTeachersForm1.Location = new System.Drawing.Point(0, 0);
-            this.addTeachersForm1.Name = "addTeachersForm1";
-            this.addTeachersForm1.Size = new System.Drawing.Size(875, 575);
-            this.addTeachersForm1.TabIndex = 0;
-            // 
-            // addEmployee1
-            // 
-            this.addEmployee1.Location = new System.Drawing.Point(0, -2);
-            this.addEmployee1.Name = "addEmployee1";
-            this.addEmployee1.Size = new System.Drawing.Size(875, 577);
-            this.addEmployee1.TabIndex = 3;
             // 
             // MainForm
             // 
@@ -286,20 +240,17 @@ namespace SchoolMangementSystem
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button AddTeacher_btn;
         private System.Windows.Forms.Button AddStudent_btn;
-        private System.Windows.Forms.Button Dashboard_btn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel3;
-        private AddTeachersForm addTeachersForm1;
         private AddStudentForm addStudentForm1;
         private System.Windows.Forms.Button button1;
         private Salary salary1;
-        private System.Windows.Forms.Button AddEmployees_btn;
-        private AddEmployee addEmployee1;
+        private System.Windows.Forms.Button AddTeachers_btn;
+        private AddTeacher addTeacher1;
     }
 }

@@ -1,5 +1,4 @@
-﻿using EmployeeManagementSystem;
-using SchoolMangementSystem;
+﻿using SchoolMangementSystem;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,7 +20,7 @@ namespace SchoolMangementSystem
         {
             InitializeComponent();
 
-            displayEmployees();
+            displayTeachers();
             disableFields();
         }
 
@@ -33,7 +32,7 @@ namespace SchoolMangementSystem
                 return;
             }
 
-            displayEmployees();
+            displayTeachers();
             disableFields();
         }
 
@@ -44,10 +43,10 @@ namespace SchoolMangementSystem
             salary_teacherrole.Enabled = false;
         }
 
-        public void displayEmployees()
+        public void displayTeachers()
         {
             SalaryData ed = new SalaryData();
-            List<SalaryData> listData = ed.salaryEmployeeListData();
+            List<SalaryData> listData = ed.salaryTeacherListData();
 
             dataGridView1.DataSource = listData;
         }
@@ -64,7 +63,7 @@ namespace SchoolMangementSystem
             }
             else
             {
-                DialogResult check = MessageBox.Show("Are you sure you want to UPDATE Employee ID: "
+                DialogResult check = MessageBox.Show("Are you sure you want to UPDATE Teacher ID: "
                     + salary_teacherid.Text.Trim() + "?", "Confirmation Message"
                     , MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
@@ -77,18 +76,18 @@ namespace SchoolMangementSystem
                             connect.Open();
                             DateTime today = DateTime.Today;
 
-                            string updateData = "UPDATE employees SET salary = @salary" +
-                                ", update_date = @updateData WHERE employee_id = @employeeID";
+                            string updateData = "UPDATE teachers SET salary = @salary" +
+                                ", update_date = @updateData WHERE teacher_id = @teacherID";
 
                             using (SqlCommand cmd = new SqlCommand(updateData, connect))
                             {
                                 cmd.Parameters.AddWithValue("@salary", salary_teachersalary.Text.Trim());
                                 cmd.Parameters.AddWithValue("@updateData", today);
-                                cmd.Parameters.AddWithValue("@employeeID", salary_teacherid.Text.Trim());
+                                cmd.Parameters.AddWithValue("@teacherID", salary_teacherid.Text.Trim());
 
                                 cmd.ExecuteNonQuery();
 
-                                displayEmployees();
+                                displayTeachers();
 
                                 MessageBox.Show("Updated successfully!"
                                     , "Information Message", MessageBoxButtons.OK

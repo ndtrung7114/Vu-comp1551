@@ -8,16 +8,18 @@ using System.Threading.Tasks;
 
 namespace SchoolMangementSystem
 {
-    class EmployeeData
+    class TeacherData
     {
 
         public int ID { set; get; }
-        public string EmployeeID { set; get; }
-        public string EmployeeName { set; get; }
-        public string EmployeeGender { set; get; }
-        public string EmployeeEmail { set; get; }
-        public string EmployeePhone { set; get; }
-        public string EmployeeRole { set; get; }
+        public string TeacherID { set; get; }
+        public string TeacherName { set; get; }
+        public string TeacherGender { set; get; }
+        public string TeacherEmail { set; get; }
+        public string TeacherPhone { set; get; }
+        public string TeacherRole { set; get; }
+        public string TeacherSubject1 { set; get; }
+        public string TeacherSubject2 { set; get; }
         public int Salary { set; get; }
         public string Status { set; get; }
 
@@ -25,9 +27,9 @@ namespace SchoolMangementSystem
         SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\OneDrive\Documents\DesktopInformationSystem.mdf;Integrated Security=True;Connect Timeout=30");
 
 
-        public List<EmployeeData> employeeListData()
+        public List<TeacherData> TeacherListData()
         {
-            List<EmployeeData> listdata = new List<EmployeeData>();
+            List<TeacherData> listdata = new List<TeacherData>();
 
             if (connect.State != ConnectionState.Open)
             {
@@ -35,7 +37,7 @@ namespace SchoolMangementSystem
                 {
                     connect.Open();
 
-                    string selectData = "SELECT * FROM employees WHERE delete_date IS NULL";
+                    string selectData = "SELECT * FROM teachers WHERE delete_date IS NULL";
 
                     using (SqlCommand cmd = new SqlCommand(selectData, connect))
                     {
@@ -43,14 +45,16 @@ namespace SchoolMangementSystem
 
                         while (reader.Read())
                         {
-                            EmployeeData ed = new EmployeeData();
+                            TeacherData ed = new TeacherData();
                             ed.ID = (int)reader["id"];
-                            ed.EmployeeID = reader["employee_id"].ToString();
-                            ed.EmployeeName = reader["employee_name"].ToString();
-                            ed.EmployeeGender = reader["employee_gender"].ToString();
-                            ed.EmployeeEmail = reader["employee_email"].ToString();
-                            ed.EmployeePhone = reader["employee_Phone"].ToString();
-                            ed.EmployeeRole = reader["employee_role"].ToString();
+                            ed.TeacherID = reader["teacher_id"].ToString();
+                            ed.TeacherName = reader["teacher_name"].ToString();
+                            ed.TeacherGender = reader["teacher_gender"].ToString();
+                            ed.TeacherEmail = reader["teacher_email"].ToString();
+                            ed.TeacherPhone = reader["teacher_Phone"].ToString();
+                            ed.TeacherRole = reader["teacher_role"].ToString();
+                            ed.TeacherSubject1 = reader["teacher_subject1"].ToString();
+                            ed.TeacherSubject2 = reader["teacher_subject2"].ToString();
                             ed.Salary = (int)reader["salary"];
                             ed.Status = reader["status"].ToString();
 
@@ -71,9 +75,9 @@ namespace SchoolMangementSystem
             return listdata;
         }
 
-        public List<EmployeeData> salaryEmployeeListData()
+        public List<TeacherData> salaryTeacherListData()
         {
-            List<EmployeeData> listdata = new List<EmployeeData>();
+            List<TeacherData> listdata = new List<TeacherData>();
 
             if (connect.State != ConnectionState.Open)
             {
@@ -81,7 +85,7 @@ namespace SchoolMangementSystem
                 {
                     connect.Open();
 
-                    string selectData = "SELECT * FROM employees WHERE delete_date IS NULL";
+                    string selectData = "SELECT * FROM teachers WHERE delete_date IS NULL";
 
                     using (SqlCommand cmd = new SqlCommand(selectData, connect))
                     {
@@ -89,10 +93,10 @@ namespace SchoolMangementSystem
 
                         while (reader.Read())
                         {
-                            EmployeeData ed = new EmployeeData();
-                            ed.EmployeeID = reader["employee_id"].ToString();
-                            ed.EmployeeName = reader["employee_name"].ToString();
-                            ed.EmployeeRole = reader["employee_role"].ToString();
+                            TeacherData ed = new TeacherData();
+                            ed.TeacherID = reader["teacher_id"].ToString();
+                            ed.TeacherName = reader["teacher_name"].ToString();
+                            ed.TeacherRole = reader["teacher_role"].ToString();
                             ed.Salary = (int)reader["salary"];
 
                             listdata.Add(ed);

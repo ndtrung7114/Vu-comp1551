@@ -29,22 +29,8 @@ namespace SchoolMangementSystem
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.student_studiedsubject2 = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.student_studiedsubject1 = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.student_currentsubject2 = new System.Windows.Forms.ComboBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.student_currentsubject1 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.student_role = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.student_phone = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.student_email = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.student_status = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.student_deleteBtn = new System.Windows.Forms.Button();
@@ -60,6 +46,12 @@ namespace SchoolMangementSystem
             this.panel1 = new System.Windows.Forms.Panel();
             this.student_studentData = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
+            this.student_role = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.student_phone = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.student_email = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.student_studentData)).BeginInit();
@@ -69,14 +61,6 @@ namespace SchoolMangementSystem
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.student_studiedsubject2);
-            this.panel2.Controls.Add(this.label12);
-            this.panel2.Controls.Add(this.student_studiedsubject1);
-            this.panel2.Controls.Add(this.label10);
-            this.panel2.Controls.Add(this.student_currentsubject2);
-            this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.student_currentsubject1);
-            this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.student_role);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.student_phone);
@@ -100,154 +84,14 @@ namespace SchoolMangementSystem
             this.panel2.Size = new System.Drawing.Size(851, 229);
             this.panel2.TabIndex = 3;
             // 
-            // student_studiedsubject2
-            // 
-            this.student_studiedsubject2.FormattingEnabled = true;
-            this.student_studiedsubject2.Items.AddRange(new object[] {
-            "Toan",
-            "Van ",
-            "Anh",
-            "Sinh"});
-            this.student_studiedsubject2.Location = new System.Drawing.Point(585, 118);
-            this.student_studiedsubject2.Name = "student_studiedsubject2";
-            this.student_studiedsubject2.Size = new System.Drawing.Size(144, 21);
-            this.student_studiedsubject2.TabIndex = 33;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(497, 121);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(85, 13);
-            this.label12.TabIndex = 32;
-            this.label12.Text = "Studied Subject:";
-            // 
-            // student_studiedsubject1
-            // 
-            this.student_studiedsubject1.FormattingEnabled = true;
-            this.student_studiedsubject1.Items.AddRange(new object[] {
-            "Toan",
-            "Van ",
-            "Anh",
-            "Sinh"});
-            this.student_studiedsubject1.Location = new System.Drawing.Point(585, 91);
-            this.student_studiedsubject1.Name = "student_studiedsubject1";
-            this.student_studiedsubject1.Size = new System.Drawing.Size(144, 21);
-            this.student_studiedsubject1.TabIndex = 31;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(497, 94);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(85, 13);
-            this.label10.TabIndex = 30;
-            this.label10.Text = "Studied Subject:";
-            // 
-            // student_currentsubject2
-            // 
-            this.student_currentsubject2.FormattingEnabled = true;
-            this.student_currentsubject2.Items.AddRange(new object[] {
-            "Toan",
-            "Van ",
-            "Anh",
-            "Sinh"});
-            this.student_currentsubject2.Location = new System.Drawing.Point(585, 64);
-            this.student_currentsubject2.Name = "student_currentsubject2";
-            this.student_currentsubject2.Size = new System.Drawing.Size(144, 21);
-            this.student_currentsubject2.TabIndex = 29;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(499, 67);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(83, 13);
-            this.label11.TabIndex = 28;
-            this.label11.Text = "Current Subject:";
-            // 
-            // student_currentsubject1
-            // 
-            this.student_currentsubject1.FormattingEnabled = true;
-            this.student_currentsubject1.Items.AddRange(new object[] {
-            "Toan",
-            "Van ",
-            "Anh",
-            "Sinh"});
-            this.student_currentsubject1.Location = new System.Drawing.Point(585, 37);
-            this.student_currentsubject1.Name = "student_currentsubject1";
-            this.student_currentsubject1.Size = new System.Drawing.Size(144, 21);
-            this.student_currentsubject1.TabIndex = 27;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(499, 40);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(83, 13);
-            this.label9.TabIndex = 26;
-            this.label9.Text = "Current Subject:";
-            // 
-            // student_role
-            // 
-            this.student_role.FormattingEnabled = true;
-            this.student_role.Items.AddRange(new object[] {
-            "Student"});
-            this.student_role.Location = new System.Drawing.Point(343, 91);
-            this.student_role.Name = "student_role";
-            this.student_role.Size = new System.Drawing.Size(144, 21);
-            this.student_role.TabIndex = 25;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(308, 95);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(32, 13);
-            this.label5.TabIndex = 24;
-            this.label5.Text = "Role:";
-            // 
-            // student_phone
-            // 
-            this.student_phone.Location = new System.Drawing.Point(343, 64);
-            this.student_phone.Multiline = true;
-            this.student_phone.Name = "student_phone";
-            this.student_phone.Size = new System.Drawing.Size(144, 21);
-            this.student_phone.TabIndex = 23;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(299, 70);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 13);
-            this.label6.TabIndex = 22;
-            this.label6.Text = "Phone:";
-            // 
-            // student_email
-            // 
-            this.student_email.Location = new System.Drawing.Point(343, 37);
-            this.student_email.Multiline = true;
-            this.student_email.Name = "student_email";
-            this.student_email.Size = new System.Drawing.Size(144, 21);
-            this.student_email.TabIndex = 21;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(305, 43);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Email:";
-            // 
             // student_status
             // 
             this.student_status.FormattingEnabled = true;
             this.student_status.Items.AddRange(new object[] {
             "Enrolled",
-            "Pending"});
-            this.student_status.Location = new System.Drawing.Point(343, 118);
+            "Pending",
+            "Graduated"});
+            this.student_status.Location = new System.Drawing.Point(519, 24);
             this.student_status.Name = "student_status";
             this.student_status.Size = new System.Drawing.Size(144, 21);
             this.student_status.TabIndex = 19;
@@ -255,7 +99,7 @@ namespace SchoolMangementSystem
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(300, 121);
+            this.label8.Location = new System.Drawing.Point(473, 27);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(40, 13);
             this.label8.TabIndex = 18;
@@ -335,7 +179,7 @@ namespace SchoolMangementSystem
             "Male",
             "Female",
             "Others"});
-            this.student_gender.Location = new System.Drawing.Point(144, 92);
+            this.student_gender.Location = new System.Drawing.Point(81, 104);
             this.student_gender.Name = "student_gender";
             this.student_gender.Size = new System.Drawing.Size(144, 21);
             this.student_gender.TabIndex = 5;
@@ -343,7 +187,7 @@ namespace SchoolMangementSystem
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(96, 95);
+            this.label4.Location = new System.Drawing.Point(30, 107);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 13);
             this.label4.TabIndex = 4;
@@ -351,16 +195,16 @@ namespace SchoolMangementSystem
             // 
             // student_name
             // 
-            this.student_name.Location = new System.Drawing.Point(144, 65);
+            this.student_name.Location = new System.Drawing.Point(80, 62);
             this.student_name.Multiline = true;
             this.student_name.Name = "student_name";
-            this.student_name.Size = new System.Drawing.Size(144, 21);
+            this.student_name.Size = new System.Drawing.Size(144, 25);
             this.student_name.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(84, 71);
+            this.label3.Location = new System.Drawing.Point(20, 68);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 13);
             this.label3.TabIndex = 2;
@@ -368,16 +212,16 @@ namespace SchoolMangementSystem
             // 
             // student_id
             // 
-            this.student_id.Location = new System.Drawing.Point(144, 38);
+            this.student_id.Location = new System.Drawing.Point(80, 21);
             this.student_id.Multiline = true;
             this.student_id.Name = "student_id";
-            this.student_id.Size = new System.Drawing.Size(144, 21);
+            this.student_id.Size = new System.Drawing.Size(144, 25);
             this.student_id.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(80, 44);
+            this.label2.Location = new System.Drawing.Point(20, 27);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 0;
@@ -399,14 +243,14 @@ namespace SchoolMangementSystem
             this.student_studentData.AllowUserToAddRows = false;
             this.student_studentData.AllowUserToDeleteRows = false;
             this.student_studentData.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.student_studentData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(87)))), ((int)(((byte)(122)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.student_studentData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.student_studentData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.student_studentData.EnableHeadersVisualStyles = false;
             this.student_studentData.Location = new System.Drawing.Point(20, 47);
@@ -426,6 +270,59 @@ namespace SchoolMangementSystem
             this.label1.Size = new System.Drawing.Size(110, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student\'s Data";
+            // 
+            // student_role
+            // 
+            this.student_role.FormattingEnabled = true;
+            this.student_role.Items.AddRange(new object[] {
+            "Student"});
+            this.student_role.Location = new System.Drawing.Point(304, 104);
+            this.student_role.Name = "student_role";
+            this.student_role.Size = new System.Drawing.Size(144, 21);
+            this.student_role.TabIndex = 25;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(269, 108);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(32, 13);
+            this.label5.TabIndex = 24;
+            this.label5.Text = "Role:";
+            // 
+            // student_phone
+            // 
+            this.student_phone.Location = new System.Drawing.Point(303, 62);
+            this.student_phone.Multiline = true;
+            this.student_phone.Name = "student_phone";
+            this.student_phone.Size = new System.Drawing.Size(144, 25);
+            this.student_phone.TabIndex = 23;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(259, 68);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(41, 13);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Phone:";
+            // 
+            // student_email
+            // 
+            this.student_email.Location = new System.Drawing.Point(303, 21);
+            this.student_email.Multiline = true;
+            this.student_email.Name = "student_email";
+            this.student_email.Size = new System.Drawing.Size(144, 25);
+            this.student_email.TabIndex = 21;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(265, 27);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "Email:";
             // 
             // AddStudentForm
             // 
@@ -468,13 +365,5 @@ namespace SchoolMangementSystem
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox student_email;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox student_studiedsubject2;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox student_studiedsubject1;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox student_currentsubject2;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox student_currentsubject1;
-        private System.Windows.Forms.Label label9;
     }
 }

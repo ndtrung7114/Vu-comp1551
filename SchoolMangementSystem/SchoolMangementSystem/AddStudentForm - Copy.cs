@@ -32,10 +32,6 @@ namespace SchoolMangementSystem
                 || student_email.Text == ""
                 || student_phone.Text == ""
                 || student_role.Text == ""
-                || student_currentsubject1.Text == ""
-                || student_currentsubject2.Text == ""
-                || student_studiedsubject1.Text == ""
-                || student_studiedsubject2.Text == ""
                 || student_status.Text == "")
             {
                 MessageBox.Show("Please fill all blank fields", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -66,10 +62,10 @@ namespace SchoolMangementSystem
                             {
                                 DateTime today = DateTime.Today;
                                 string insertData = "INSERT INTO students (student_id, student_name" +
-                                    ", student_gender, student_email, student_phone, student_role, student_currentsubject1, student_currentsubject2" +
-                                    ", student_studiedsubject1, student_studiedsubject2, student_status, date_insert) " +
+                                    ", student_gender, student_email, student_phone, student_role" +
+                                    ",  student_status, date_insert) " +
                                     "VALUES(@studentID, @studentName, @studentGender, @studentEmail" +
-                                    ", @studentPhone, @studentRole, @studentCurrentsubject1, @studentCurrentsubject2, @studentStudiedsubject1, @studentStudiedsubject2, @studentStatus" +
+                                    ", @studentPhone, @studentRole,  @studentStatus" +
                                     ", @dateInsert)";
 
                                 using (SqlCommand cmd = new SqlCommand(insertData, connect))
@@ -80,10 +76,6 @@ namespace SchoolMangementSystem
                                     cmd.Parameters.AddWithValue("@studentEmail", student_email.Text.Trim());
                                     cmd.Parameters.AddWithValue("@studentPhone", student_phone.Text.Trim());
                                     cmd.Parameters.AddWithValue("@studentRole", student_role.Text.Trim());
-                                    cmd.Parameters.AddWithValue("@studentCurrentsubject1", student_currentsubject1.Text.Trim());
-                                    cmd.Parameters.AddWithValue("@studentCurrentsubject2", student_currentsubject2.Text.Trim());
-                                    cmd.Parameters.AddWithValue("@studentStudiedsubject1", student_studiedsubject1.Text.Trim());
-                                    cmd.Parameters.AddWithValue("@studentStudiedsubject2", student_studiedsubject2.Text.Trim());
                                     cmd.Parameters.AddWithValue("@studentStatus", student_status.Text.Trim());
                                     cmd.Parameters.AddWithValue("@dateInsert", today);
 
@@ -119,10 +111,6 @@ namespace SchoolMangementSystem
             student_email.Text = "";
             student_phone.Text = "";
             student_role.SelectedIndex = -1;
-            student_currentsubject1.SelectedIndex = -1;
-            student_currentsubject2.SelectedIndex = -1;
-            student_studiedsubject1.SelectedIndex = -1;
-            student_studiedsubject2.SelectedIndex = -1;
             student_status.SelectedIndex = -1;
         }
 
@@ -139,10 +127,6 @@ namespace SchoolMangementSystem
                 || student_email.Text == ""
                 || student_phone.Text == ""
                 || student_role.Text == ""
-                || student_currentsubject1.Text == ""
-                || student_currentsubject2.Text == ""
-                || student_studiedsubject1.Text == ""
-                || student_studiedsubject2.Text == ""
                 || student_status.Text == "")
             {
                 MessageBox.Show("Please select item first", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -165,8 +149,6 @@ namespace SchoolMangementSystem
                             String updateData = "UPDATE students SET student_name = @studentName, " +
                                 "student_gender = @studentGender, student_email = @studentEmail, " +
                                 "student_phone = @studentPhone, student_role = @studentRole, " +
-                                "student_currentsubject1 = @studentCurrentsubject1, student_currentsubject2 = @studentCurrentsubject2, " +
-                                "student_studiedsubject1 = @studentStudiedsubject1, student_studiedsubject2 = @studentStudiedsubject2, " +
                                 "student_status = @studentStatus, date_update = @dateUpdate " +
                                 "WHERE student_id = @studentID";
 
@@ -178,10 +160,6 @@ namespace SchoolMangementSystem
                                 cmd.Parameters.AddWithValue("@studentEmail", student_email.Text.Trim());
                                 cmd.Parameters.AddWithValue("@studentPhone", student_phone.Text.Trim());
                                 cmd.Parameters.AddWithValue("@studentRole", student_role.Text.Trim());
-                                cmd.Parameters.AddWithValue("@studentCurrentsubject1", student_currentsubject1.Text.Trim());
-                                cmd.Parameters.AddWithValue("@studentCurrentsubject2", student_currentsubject2.Text.Trim());
-                                cmd.Parameters.AddWithValue("@studentStudiedsubject1", student_studiedsubject1.Text.Trim());
-                                cmd.Parameters.AddWithValue("@studentStudiedsubject2", student_studiedsubject2.Text.Trim());
                                 cmd.Parameters.AddWithValue("@studentStatus", student_status.Text.Trim());
                                 cmd.Parameters.AddWithValue("@dateUpdate", today);
                                 cmd.Parameters.AddWithValue("@studentID", student_id.Text.Trim());
@@ -226,11 +204,7 @@ namespace SchoolMangementSystem
                 student_email.Text = row.Cells[4].Value.ToString();
                 student_phone.Text = row.Cells[5].Value.ToString();
                 student_role.Text = row.Cells[6].Value.ToString();
-                student_currentsubject1.Text = row.Cells[7].Value.ToString();
-                student_currentsubject2.Text = row.Cells[8].Value.ToString();
-                student_studiedsubject1.Text = row.Cells[9].Value.ToString();
-                student_studiedsubject2.Text = row.Cells[10].Value.ToString();
-                student_status.Text = row.Cells[11].Value.ToString();
+                student_status.Text = row.Cells[7].Value.ToString();
             }
         }
 
