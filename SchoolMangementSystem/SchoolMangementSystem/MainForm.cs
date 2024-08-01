@@ -56,6 +56,7 @@ namespace SchoolMangementSystem
             addStudentForm1.Visible = false;
             addTeacher1.Visible = false;
             salary1.Visible = true;
+            salary1.displayTeachers();
         }
 
         private void AddTeachers_btn_Click(object sender, EventArgs e)
@@ -63,6 +64,7 @@ namespace SchoolMangementSystem
             addStudentForm1.Visible = false;
             salary1.Visible = false;
             addTeacher1.Visible = true;
+            addTeacher1.displayTeacherData();
         }
     }
 }

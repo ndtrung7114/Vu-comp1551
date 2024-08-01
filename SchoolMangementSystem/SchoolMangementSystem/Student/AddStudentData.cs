@@ -10,7 +10,7 @@ namespace SchoolMangementSystem
 {
     class AddStudentData
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\OneDrive\Documents\DesktopInformationSystem.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connect = new SqlConnection(ConnectConfig.connection);
         public int ID { set; get; }
         public string StudentID { set; get; }
         public string StudentName { set; get; }

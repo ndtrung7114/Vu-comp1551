@@ -58,3 +58,20 @@ D:\COMP1551\SchoolManagementSystem\SchoolMangementSystem\SchoolMangementSystem\o
 D:\COMP1551\SchoolManagementSystem\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.csproj.CoreCompileInputs.cache
 D:\COMP1551\SchoolManagementSystem\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.exe
 D:\COMP1551\SchoolManagementSystem\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.pdb
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\bin\Debug\Student\AddStudentForm.resx
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\bin\Debug\Student\AddStudentForm.cs
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\bin\Debug\Student\AddStudentForm.Designer.cs
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\bin\Debug\SchoolMangementSystem.exe
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\bin\Debug\SchoolMangementSystem.pdb
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.csproj.AssemblyReference.cache
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.AddTeacher.resources
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.AddStudentForm.resources
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.Login.resources
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.MainForm.resources
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.Properties.Resources.resources
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.Salary.resources
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.Signup.resources
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.csproj.GenerateResource.cache
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.csproj.CoreCompileInputs.cache
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.exe
+E:\hoc tap\Vu\COMP1551\SchoolMangementSystem\SchoolMangementSystem\obj\Debug\SchoolMangementSystem.pdb

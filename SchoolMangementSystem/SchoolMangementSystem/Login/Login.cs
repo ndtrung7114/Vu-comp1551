@@ -14,7 +14,7 @@ namespace SchoolMangementSystem
 {
     public partial class Login : Form
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\OneDrive\Documents\DesktopInformationSystem.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connect = new SqlConnection(ConnectConfig.connection);
         public Login()
         {
             InitializeComponent();

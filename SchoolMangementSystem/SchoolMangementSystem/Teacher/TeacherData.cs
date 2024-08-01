@@ -24,7 +24,7 @@ namespace SchoolMangementSystem
         public string Status { set; get; }
 
 
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\OneDrive\Documents\DesktopInformationSystem.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connect = new SqlConnection(ConnectConfig.connection);
 
 
         public List<TeacherData> TeacherListData()

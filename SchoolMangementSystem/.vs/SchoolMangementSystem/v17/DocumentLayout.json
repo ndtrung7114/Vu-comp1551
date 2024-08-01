@@ -1,12 +1,271 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\COMP1551\\SchoolManagementSystem\\SchoolMangementSystem\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\teacher\\addteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\teacher\\addteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\teacher\\addteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\teacher\\addteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\salary\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\salary\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\salary\\salarydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\salary\\salarydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\salary\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\salary\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\student\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\student\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\student\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\student\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\student\\addstudentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\student\\addstudentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\teacher\\teacherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\teacher\\teacherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\connectconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\connectconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\login\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\login\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|e:\\hoc tap\\vu\\comp1551\\schoolmangementsystem\\schoolmangementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45571F64-19CE-4CF1-B353-FEF60CFBF3B3}|SchoolMangementSystem\\SchoolMangementSystem.csproj|solutionrelative:schoolmangementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddTeacher.cs [Design]",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Teacher\\AddTeacher.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Teacher\\AddTeacher.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Teacher\\AddTeacher.cs [Design]",
+              "RelativeToolTip": "SchoolMangementSystem\\Teacher\\AddTeacher.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:22:18.678Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\MainForm.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\MainForm.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\MainForm.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\MainForm.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwEIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:08:50.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalaryData.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Salary\\SalaryData.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Salary\\SalaryData.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Salary\\SalaryData.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\Salary\\SalaryData.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA3wBMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:16:48.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddTeacher.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Teacher\\AddTeacher.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Teacher\\AddTeacher.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Teacher\\AddTeacher.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\Teacher\\AddTeacher.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAowGwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:15:57.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\MainForm.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\MainForm.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\MainForm.cs [Design]",
+              "RelativeToolTip": "SchoolMangementSystem\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:08:38.954Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Salary\\Salary.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Salary\\Salary.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Salary\\Salary.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\Salary\\Salary.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:15:42.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddStudentForm.cs [Design]",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Student\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Student\\AddStudentForm.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Student\\AddStudentForm.cs [Design]",
+              "RelativeToolTip": "SchoolMangementSystem\\Student\\AddStudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:16:37.254Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddStudentForm.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Student\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Student\\AddStudentForm.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Student\\AddStudentForm.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\Student\\AddStudentForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:16:39.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Salary.cs [Design]",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Salary\\Salary.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Salary\\Salary.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Salary\\Salary.cs [Design]",
+              "RelativeToolTip": "SchoolMangementSystem\\Salary\\Salary.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:16:55.246Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TeacherData.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Teacher\\TeacherData.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Teacher\\TeacherData.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Teacher\\TeacherData.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\Teacher\\TeacherData.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA5wBoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:16:17.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Signup.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Login\\Signup.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Login\\Signup.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Login\\Signup.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\Login\\Signup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:15:34.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Login\\Login.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Login\\Login.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\Login\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:15:25.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConnectConfig.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\ConnectConfig.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\ConnectConfig.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\ConnectConfig.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\ConnectConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:11:52.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddStudentData.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Student\\AddStudentData.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Student\\AddStudentData.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Student\\AddStudentData.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\Student\\AddStudentData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:08:57.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolMangementSystem\\Program.cs",
+              "ToolTip": "E:\\hoc tap\\Vu\\COMP1551\\SchoolMangementSystem\\SchoolMangementSystem\\Program.cs",
+              "RelativeToolTip": "SchoolMangementSystem\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:08:44.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
